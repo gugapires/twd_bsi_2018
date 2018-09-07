@@ -27,7 +27,7 @@ SECRET_KEY = 'i$97#$z1$dm(x-41=f@%@si0kj)*ohrdwi&7(pfk@3e8ith_m*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['miranda.pythonanywhere.com']
 
 
 # Application definition
@@ -125,5 +125,5 @@ STATICFILES_DIRS = [STATIC_DIR, ]
 STATIC_URL = '/static/'
 
 #Media files (upload, etc.)
-MEDIA_ROOT = MEDIA_DIR
+MEDIA_ROOT = '/home/miranda/twd_bsi_2018/tango_with_django_project/static'
 MEDIA_URL = '/media/'
