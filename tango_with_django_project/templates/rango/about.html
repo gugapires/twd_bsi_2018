@@ -13,8 +13,10 @@
     <img src="{% static "images/rango2.jpg" %}"
          alt="Picture of Rango" />
     <br/>
-    <img src="/media/rango_cartaz.jpg""
-    alt="Picture of Rango" />
+    <!--img src="/media/rango_cartaz.jpg""alt="Picture of Rango" /-->
+    <!-- Acima é para caso esteja na pasta media, porem como estou usando o python anywhere fica-->
+    <img src="{% static "images/rango_cartaz.jpg" %}"
+         alt="Picture of Rango" /-->
     <br/>
     <hr>
     <a href="/rango/">Home</a>
